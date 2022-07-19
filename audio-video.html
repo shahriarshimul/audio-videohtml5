@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio&Video</title>
+    <style>
+        table,
+        th,
+        td {
+            margin-top: 30px;
+            padding: 20px 20px;
+            border-collapse: collapse;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Let's see some audios & videos</p>
+    <audio src="media/audio/goat.mp3" controls></audio>
+    <!--     <iframe width="560" height="315" src="https://www.youtube.com/embed/cEJy2q27hVk" title="YouTube video player"
+         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>  -->
+
+
+    <table>
+        <thead>
+            <th>Serial</th>
+            <th>Name</th>
+            <th>Contact No</th>
+            <th>Place</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Shahriar</td>
+                <td>01273283728323</td>
+                <td>Savar</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Shahriar</td>
+                <td>01273283728323</td>
+                <td>Savar</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Shahriar</td>
+                <td>01273283728323</td>
+                <td>Savar</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Shahriar</td>
+                <td>01273283728323</td>
+                <td>Savar</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+    <form action="">
+        <p>
+            Name: <input type="text" name="Balam" placeholder="What's your name?" id="">
+        </p>
+        <p>
+            Email: <input type="text" name="Balam" placeholder="What's your E-mail?" id="">
+        </p>
+
+        <fieldset>
+            <legend>Select your product</legend>
+
+            <p><label for="Bhapa"><input type="radio" name="BhapaPitha" id="Bhapa">BhapaPitha
+                </label>
+            </p>
+            <p><label for="Chitoi"><input type="radio" name="Pitha" id="Chitoi">ChitoiPitha
+                </label>
+            </p>
+            <p><label for="Oil"><input type="radio" name="Pitha" id="Oil">OilPitha
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select your Bhorta</legend>
+            <p><label for="ShutkiBhorta"><input type="checkbox" name="Bhorta" id="Shutki">ShutkiBhorta</label></p>
+            <p><label for="MorichBhorta"><input type="checkbox" name="Bhorta" id="Morich">MorichBhorta</label></p>
+            <p><label for="BegunBhorta"><input type="checkbox" name="Bhorta" id="Begun">BegunBhorta</label></p>
+        </fieldset>
+        <p>Special Instruction
+            <br>
+            <textarea name="" id="" placeholder="Special Instruction" cols="30" rows="10"></textarea>
+        </p>
+        <p><button type="submit">Submit</button><br></p>
+
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
